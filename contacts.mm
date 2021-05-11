@@ -4,6 +4,9 @@
 /***** HELPERS *****/
 
 NSString *DecodeLabel(NSString *label) {
+  if (label.length == 0) {
+    return @"other";
+  }
   label = [label lowercaseString];
   if (label.length < 6 || [[label substringToIndex:2] isEqualToString:@"_$!"])  {
     return label;

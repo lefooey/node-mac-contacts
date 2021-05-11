@@ -1,6 +1,6 @@
 {
   "name": "node-mac-contacts",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A native module that allows you to access and manipulate macOS contacts",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "node-gyp": "^5.0.3"
+    "node-gyp": "^5.1.1"
   },
   "dependencies": {
-    "node-addon-api": "^1.7.1"
+    "node-addon-api": "^1.7.2"
   }
 }
